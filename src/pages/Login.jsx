@@ -1,4 +1,5 @@
 import React,{useState}  from "react";
+import { Link } from "react-router-dom";
 import "./Login.css";
 
 function Login(){
@@ -30,8 +31,11 @@ function Login(){
                 required/>
                 <button type="Submit">Login</button>
             </form>
+            <button><a href="/home"><h3>Back</h3></a></button>
         </div>
     );
+
+
 }
 
 export default Login;
