@@ -14,9 +14,9 @@ function Login(){
     };
 
     return (
-        <div className="login-container">
-            <form className="login-Form" onSubmit={handleLogin}>
-                <h2>Login to Budgit</h2>
+        <div className="card">
+            <h2>Login to Budgit</h2>
+            <form  onSubmit={handleLogin}>
                 <input
                 type="email"
                 placeholder="Email"
@@ -31,7 +31,7 @@ function Login(){
                 required/>
                 <button type="Submit">Login</button>
             </form>
-            <button><a href="/home"><h3>Back</h3></a></button>
+            <Link to ="/"><h3>🠠Back</h3></Link>
         </div>
     );
 

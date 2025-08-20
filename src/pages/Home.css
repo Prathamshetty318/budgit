@@ -9,11 +9,10 @@
     height: auto;
 }
 
-.home-header {
+.home-footer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    background: rgb(90, 180, 180);
+    background: rgb(0, 0, 0);
     color: white;
     padding: 1rem;
 }
@@ -28,6 +27,8 @@
     box-shadow: #1976d2;
     background-color: transparent;
 }
+
+
 
 .top-buttons button {
     background: transparent;
@@ -51,10 +52,6 @@
     justify-content: center;
 }
 
-.home-footer {
-    background: #f1f1f1;
-    text-align: left;
-    padding: 1rem;
-}
+
 
 
