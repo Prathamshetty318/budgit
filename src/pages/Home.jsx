@@ -9,9 +9,6 @@ function Home() {
                 <p>Your personal budget tracker with powerful features</p>
                 <Link to="/login" className="btn">Get Started</Link>
             </main>
-            <footer className="home-footer">
-                <p>Made by Pratham</p>
-            </footer>
     </div>
     );
 }

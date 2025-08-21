@@ -2,9 +2,25 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: white;
     padding: 10px 20px;
-    color : White;
+    color : #2bdde3(197, 118, 118);
+}
+
+
+.navbar button{
+    background-color: transparent;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    color: lightgreen;
+    font-size: 1.2rem;
+    size: 1.2rem;
+}
+
+.navbar button:hover{
+    box-shadow: #00c4cc 0px 0px 1px;
+    size: 5rem;
 }
 
 .navbar h2{
@@ -19,7 +35,8 @@
 
 .navbar a{
     text-decoration: none;
-    color: white;
+    color: lightgreen;
+    text-size-adjust:  5rem;
     font-weight: bold;
 }
 

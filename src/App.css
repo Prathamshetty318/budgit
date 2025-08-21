@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+body, html, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.content {
+  flex: 1;
+  color: rgb(81, 138, 189);
+}
