@@ -1,3 +1,14 @@
+.home-container {
+    background-image: url("/Assets/Images/Budgitbg1.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 75vh;
+    text-align: center;
+    
+}
+
+
 .card{
     max-width: 400px;
     margin: 100px auto;
@@ -30,7 +41,6 @@
     border: none;
     background: #007bff;
     color: white;
-    border: none;
     border-radius: 6px;
     cursor: pointer;
     font-size: 16px;

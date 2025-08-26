@@ -14,7 +14,7 @@ function Footer(){
                 </div>
                 <div className="footer-column">
                     <h4>Follow Us</h4>
-                    <a href="Instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
                     <a href="Facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
                     <a href="Twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
                 </div>

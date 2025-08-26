@@ -9,33 +9,36 @@
 
 
 .navbar button{
-    background-color: transparent;
+    background-color: #00c4cc;
     border-radius: 6px;
     border: none;
     cursor: pointer;
-    color: lightgreen;
+    color: white;
     font-size: 1.2rem;
-    size: 1.2rem;
+    padding: 8px 16px;
 }
 
 .navbar button:hover{
-    box-shadow: #00c4cc 0px 0px 1px;
+    box-shadow: #020707 0px 0px 5px;
     size: 5rem;
 }
 
 .navbar h2{
-    margin: 0;
+    margin-left: 4rem;
+    color: rgb(0, 0, 0);
+    
 }
 
 .navbar ul{
     list-style: none;
+    font-size: 1.2rem;
     display: flex;
     gap: 15px;
 }
 
 .navbar a{
     text-decoration: none;
-    color: lightgreen;
+    color:rgb(83, 193, 230);
     text-size-adjust:  5rem;
     font-weight: bold;
 }

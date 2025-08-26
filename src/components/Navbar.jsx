@@ -8,9 +8,9 @@ function Navbar(){
         <nav className="navbar">
             <h2> Budgit </h2>
             <ul>
-                <li><button><Link to ="/">Home</Link></button></li>
-                <li><button><Link to="/Login">Sign in  </Link></button></li>
-                <li><button><Link to="/Register">Sign up</Link></button></li>
+                <li><Link to ="/">Home</Link></li>
+                <li><Link to="/Login">Sign in  </Link></li>
+                <li><Link to="/Register"><button>Sign up</button></Link></li>
             </ul>
         </nav>
         );

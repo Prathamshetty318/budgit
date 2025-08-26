@@ -5,10 +5,13 @@ import "./Home.css";
 function Home() {
     return (
         <div className="home-container">
-            <main className="home-main">
-                <p>Your personal budget tracker with powerful features</p>
-                <Link to="/login" className="btn">Get Started</Link>
-            </main>
+            <div className="overlay">
+                <div className="content-card">
+                    <h1> Welcome To Budgit</h1>
+                    <p>TRack, Split, Manage Your expense effortlessly using Budgit</p>
+                    <Link to="/login" className="btn">Get Started</Link>
+                </div>
+            </div>
     </div>
     );
 }
